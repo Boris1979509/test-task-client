@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vite build",
+    "serve": "vite preview --port 8080",
+    "deploy": "cd dist && cp index.html 404.html"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.6",
+    "axios": "^0.26.1",
+    "vee-validate": "^4.5.10",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.0",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.9.0"
+  }
+}
