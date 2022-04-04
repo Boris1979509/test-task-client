@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as a,t as n}from"./index.57466dee.js";const r={name:"Home",props:{username:{type:String}}},c={class:"text-center"};function m(e,p,t,_,i,l){return s(),a("h2",c,n(e.$t("Welcome",{name:t.username})),1)}var u=o(r,[["render",m]]);export{u as default};
