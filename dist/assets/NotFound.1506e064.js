@@ -1,1 +1,0 @@
-import{_ as t,I as s,o,c as n,e as a,t as r}from"./index.98177c14.js";const c={name:"NotFound",setup(){return s(),{}}},d={class:"container h-screen flex flex-col justify-center"},i={class:"text-center text-red-500"};function _(e,l,u,f,p,x){return o(),n("div",d,[a("h2",i,r(e.$t("404 - Page not found")),1)])}var m=t(c,[["render",_]]);export{m as default};
